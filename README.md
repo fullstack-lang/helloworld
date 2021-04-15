@@ -10,11 +10,13 @@ You should see the following 3 files:
 helloworld % tree .
 .
 ├── LICENSE
-├── README.md // this file
+├── README.md               -> this file
 ├── go
 │   └── models
-│       └── helloworld.go // the model
-└── go.mod
+│       └── helloworld.go   -> the data model
+├── go.mod                  -> standard go module file (empty)
+├── hello_world_view.png    -> capture of the result on the client browser
+└── test.db                 -> sqllite database file used by the application (three countries)
 ```
 2. Install gongc (the gong compiler)
 - > git clone github.com/fullstack-lang/gong
