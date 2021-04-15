@@ -23,9 +23,29 @@ helloworld % tree .
 - > cd ../../../../..
 
 3. Compile & run hello world
-- > cd helloworld/go/models; gongc -run
+- > cd helloworld/go/models; gongc
 
-4. Use hello world
+compilation should last less than a minute ("npm install" is the longuest operation)
+
+Go back to the root directory of the helloworld repo
+- > cd ../..
+
+update the go needed modules 
+- > go mod tidy
+
+launch helloworld
+- > go run main.go
+
+```
+helloworld % go run main.go
+helloworld: Database Migration of package github.com/fullstack-lang/helloworld/go is OK
+helloworld: Server ready serve on localhost:8080
+```
+
+
+1. Use hello world
 - launch browser on http://localhost:8080
 
 ### what you should see
+
+![hello_world](hello_world_view.png)
