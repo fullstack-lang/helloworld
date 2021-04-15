@@ -5,7 +5,14 @@ Steps to have hello world work:
 
 You should see the following 3 files:
 ```
-
+helloworld % tree .
+.
+├── LICENSE
+├── README.md // this file
+├── go
+│   └── models
+│       └── helloworld.go // the model
+└── go.mod
 ```
 
 - > cd helloworld; gongc -run
