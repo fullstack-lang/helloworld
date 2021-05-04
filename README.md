@@ -1,6 +1,4 @@
-### hello world for gong
-
-Steps to have hello world work:
+### Steps to have hello world (by gong) work:
 
 1. Clone the repo
 - > git clone github.com/fullstack-lang/helloworld
@@ -20,9 +18,9 @@ helloworld % tree .
 ```
 2. Install gongc (the gong compiler)
 - > git clone github.com/fullstack-lang/gong
-- > cd gong/stacks/gong/go/gongc
+- > cd gong/go/gongc
 - > go install
-- > cd ../../../../..
+- > cd ../../..
 
 3. Compile & run hello world
 - > cd helloworld/go/models; gongc
