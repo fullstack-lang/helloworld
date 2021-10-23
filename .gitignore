@@ -6,3 +6,4 @@ go/docs.go
 go/models/gong.go
 go.sum
 helloworld
+test.db
